@@ -1,7 +1,7 @@
 // Arquivo criado em projeto no www.stackblitz.com denominado usaAluno.js
 // Para executar: node ./objetos/usaAluno.js
 
-const Aluno = require('./escola/Aluno');
+const Aluno = require('./Aluno');
 
 const joao = new Aluno();
 
