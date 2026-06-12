@@ -5,7 +5,7 @@ const Aluno = require('./Aluno');
 
 const joao = new Aluno();
 
-joao.#matricula = 1234; // ERRO
+joao.matricula = 1234; // ERRO
 
 joao.escola = "IFB";
 joao.setMatricula(12345);
@@ -14,3 +14,4 @@ joao.setCurso("Programação de FrontEnd");
 console.log(joao.getMatricula());
 console.log(joao.getCurso());
 console.log(`Escola : ${joao.escola}`);
+console.log(`Escola : ${joao.matricula}`);
